@@ -1,0 +1,30 @@
+body{
+  font-family: 'Dancing Script', cursive;
+  background-color: rgb(21, 238, 166);
+}
+
+.container{
+  background-color: #011627;
+  width: 80%;
+  height: 80%;
+}
+
+p{
+  margin-left: 25%;
+}
+
+input{
+  width: 300px;
+}
+
+@media (max-width: 415px){
+  input{
+    width: 40%;
+  }
+}
+
+@media (max-width: 215px){
+  input{
+    width: 20%;
+  }
+}
